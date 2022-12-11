@@ -12,7 +12,7 @@ if (number > 0)
         number = number / 10;
         sum = sum + r; 
     }
-    Console.WriteLine("сумма чисел "+ sum);
+    Console.WriteLine($"сумма чисел - {sum}");
 }
 else Console.WriteLine ("Введенное число некорректно");
 
